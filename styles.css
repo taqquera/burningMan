@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('images/header-bg.jpg');
+    background-repeat: no-repeat center top;
+    background-size: cover;
+    padding-top: 57px; 
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    height: 100vh;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navBar li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-right: 40px;
+}
+
+.navItem:hover {
+   text-decoration: underline;
+}
+
+.tel {
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.headerContent {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.headerContentText {
+    font-size: 30px;
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+}
+
+.headerContentTitle {
+    font-size: 100px;
+    letter-spacing: 0.1em;
+    margin-bottom: 19px;
+    margin-top: -9px;
+}
+
+.headerContentBtn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+}
+
+.headerContentBtn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: ease 0.5s;
+}
+
+.about {
+    padding-top: 113px;
+}
+
+.aboutTitle {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutContentItem {
+    width: 567px;
+}
+
+.aboutContentTitle {
+    margin-bottom: 32px;
+    font-size: 25px;
+}
+
+.aboutContentText {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerText {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex; 
+    padding: 114px 0;
+}
+
+.footerTextItem {
+    margin-right: 60px;
+}
